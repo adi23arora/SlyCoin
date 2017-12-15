@@ -1,8 +1,8 @@
-	######################################### 
-	#										#
-	# Implementation of Basic Blockchain	#
-	#										#
-	#########################################
+    ######################################### 
+    #                                       #
+    # Implementation of Basic Blockchain    #
+    #                                       #
+    #########################################
 
 import hashlib
 import json
@@ -17,7 +17,7 @@ from flask import Flask,jsonify,request
 class Blockchain(object):
 
 
-	def __init__(self):
+    def __init__(self):
         
         self.chain = []
         self.current_transactions = []
